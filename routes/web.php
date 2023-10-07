@@ -24,6 +24,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::get('/payment',[PaymentController::class,'payment'])->name('payment');
-Route::get('/success',[PaymentController::class,'success'])->name('success');
+Route::get('/success}',[PaymentController::class,'success'])->name('success');
 Route::get('/cancel',[PaymentController::class,'cancel'])->name('cancel');
 
